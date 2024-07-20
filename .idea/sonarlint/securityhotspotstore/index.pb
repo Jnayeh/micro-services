@@ -35,3 +35,9 @@ F
 config-service/pom.xml,9\3\93d3996e8089bcf62c0f63dc8ae952567bec29ae
 w
 Gconfig-service/src/main/java/mourad/micro/ConfigServiceApplication.java,e\0\e01d18fe2fafdc3692412c923155ca5c95eba580
+I
+config-service/Dockerfile,2\e\2e97dcc88d396a4c2410ca1ed03689b87e49498b
+E
+config-server/pom.xml,a\2\a2f9618c8ad821b143a07a29a9805fcb0b2df470
+H
+config-server/Dockerfile,b\6\b61e3bf1cf202a99b9cf49c6d7e26c98df17134b
