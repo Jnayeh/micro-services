@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>mourad.micro</groupId>
-    <artifactId>reservations-ms</artifactId>
+    <artifactId>reservation-ms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>reservations-ms</name>
     <description>reservations-ms</description>

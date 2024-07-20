@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17-jdk-alpine
 
-WORKDIR /gateway-service
+WORKDIR /activity-ms
 
 EXPOSE 8077
 

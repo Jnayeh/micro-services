@@ -41,3 +41,5 @@ E
 config-server/pom.xml,a\2\a2f9618c8ad821b143a07a29a9805fcb0b2df470
 H
 config-server/Dockerfile,b\6\b61e3bf1cf202a99b9cf49c6d7e26c98df17134b
+I
+reservation-ms/Dockerfile,f\d\fd3c42d9e89d397547746c2d1bced582e3f11835

@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-server" />
-        <module name="config-service" />
+        <module name="config-server" />
         <module name="demo" />
         <module name="discovery-service" />
         <module name="activity-ms" />
@@ -23,7 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="activity-ms" options="-parameters" />
-      <module name="config-service" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="gateway-server" options="-parameters" />

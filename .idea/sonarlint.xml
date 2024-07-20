@@ -4,6 +4,7 @@
     <option name="moduleMapping">
       <map>
         <entry key="activity-ms" value="activities-microservice" />
+        <entry key="config-server" value="config-service" />
         <entry key="gateway-server" value="gateway" />
       </map>
     </option>
