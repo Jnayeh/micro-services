@@ -151,7 +151,7 @@ services:
   reservation-ms:
     build:
       context: reservation-ms
-      dockerfile: reservation-ms/Dockerfile-reservation
+      dockerfile: Dockerfile-reservation
     container_name: reservation-ms
     restart: on-failure
     ports:
