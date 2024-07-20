@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/gateway-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-service/pom.xml" />
         <option value="$PROJECT_DIR$/activity-ms/pom.xml" />
+        <option value="$PROJECT_DIR$/reservation-ms/pom.xml" />
       </list>
     </option>
   </component>

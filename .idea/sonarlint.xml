@@ -6,6 +6,7 @@
         <entry key="activity-ms" value="activities-microservice" />
         <entry key="config-server" value="config-service" />
         <entry key="gateway-server" value="gateway" />
+        <entry key="reservation-ms" value="reservations-ms" />
       </map>
     </option>
   </component>

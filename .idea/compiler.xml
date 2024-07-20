@@ -9,13 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-server" />
         <module name="config-server" />
+        <module name="reservation-ms" />
         <module name="demo" />
         <module name="discovery-service" />
         <module name="activity-ms" />
-        <module name="reservations-ms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-server" target="17" />
       <module name="demo" target="17" />
       <module name="providers-microservice" target="17" />
     </bytecodeTargetLevel>
@@ -28,7 +29,7 @@
       <module name="discovery-service" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
       <module name="providers-microservice" options="-parameters" />
-      <module name="reservations-ms" options="-parameters" />
+      <module name="reservation-ms" options="-parameters" />
     </option>
   </component>
 </project>
