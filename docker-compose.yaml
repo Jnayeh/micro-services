@@ -55,7 +55,7 @@ services:
       MYSQL_USER: 'root'
       MYSQL_PASSWORD: 'root'
       MYSQL_ROOT_PASSWORD: 'root'
-      MYSQL_DATABASE: examen_db
+      MYSQL_DATABASE: activity_db
     volumes:
       - mysql-data:/var/lib/mysql
     networks:

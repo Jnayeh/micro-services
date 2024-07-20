@@ -48,16 +48,15 @@ public class ActiviyServiceImpl implements IActiviyService {
       ReservationDTO reservationDTO = response.getBody();
       ActivityDTO activityDTO = activityMapper.toDto(activity);
       return new ActivityDTO(activityDTO.activityId(), activityDTO.designation(), activityDTO.duration(), activityDTO.reservationId(), reservationDTO);
-    }).orElseThrow(() -> new IllegalArgumentException("Etudiant not found"));
+    }).orElseThrow(() -> new IllegalArgumentException("Activity not found"));
   }
 
   public ActivityDTO save(ActivityDTO activityDTO) {
     ReservationDTO reservationDTO = reservationClient.getRsvById(activityDTO.reservationId());
-    if (reservationDTO != null) {
+    if (reservationDTO == null) throw new IllegalArgumentException("Reservation not found");
       Activity activity = activityMapper.toEntity(activityDTO);
       activityRepository.save(activity);
       return new ActivityDTO(activityDTO.activityId(), activityDTO.designation(), activityDTO.duration(), activityDTO.reservationId(), reservationDTO);
-    } else throw new IllegalArgumentException("Examen not found");
   }
 
   public List<ActivityDTO> findAll() {
