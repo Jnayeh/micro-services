@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gateway-server" />
+        <module name="config-service" />
+        <module name="demo" />
+        <module name="discovery-service" />
+        <module name="activity-ms" />
+        <module name="reservations-ms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="17" />
+      <module name="providers-microservice" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="activity-ms" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="providers-microservice" options="-parameters" />
+      <module name="reservations-ms" options="-parameters" />
+    </option>
+  </component>
+</project>
